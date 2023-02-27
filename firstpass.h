@@ -15,7 +15,7 @@ typedef struct node2 {
 	char ent;
 	int line;
 	char data;
-	int *locations;
+	int* locations;
 	int counter;
 	ptr2 next;
 }label;

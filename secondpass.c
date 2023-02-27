@@ -274,7 +274,7 @@ void insertconst( char data[] , char** inst , int ic ){
 	
 	for( i = 0 ; data[i] != '\0' ; i++ ){
 		
-		if( isdigit ( data[i] ) || data[i] == '-'){
+		if( isdigit ( data[i] ) || data[i] == '-' || data[i] == '+'){
 			num[j] = data[i];
 			j++;
 		}
