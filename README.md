@@ -27,7 +27,7 @@ The assembler pipeline includes:
 
 ## Key Features
 
-### ✅ Pre-Assembler (Macro Expansion)
+###  Pre-Assembler (Macro Expansion)
 - Supports macro definitions:
   - `mcr <name>`
   - `endmcr`
@@ -38,7 +38,7 @@ The assembler pipeline includes:
   - Macro names cannot be instruction/directive/register names
   - Each `mcr` has a matching `endmcr`
 
-### ✅ Two-Pass Assembler
+###  Two-Pass Assembler
 - **Pass 1**
   - Parses lines, builds **symbol table**
   - Computes **IC/DC**
@@ -50,7 +50,7 @@ The assembler pipeline includes:
   - Marks `.entry` symbols
   - Collects `.extern` references for `.ext`
 
-### ✅ Outputs
+###  Outputs
 For every `file.as`, the assembler may generate:
 
 | Output | Meaning |
@@ -60,7 +60,7 @@ For every `file.as`, the assembler may generate:
 | `file.ent` | Entry symbols and their addresses (only if `.entry` exists) |
 | `file.ext` | External symbols usage addresses (only if `.extern` exists) |
 
-### ✅ Error Handling
+###  Error Handling
 - Detects and reports syntax/semantic errors (does not stop on first error)
 - Prints errors to **stdout** with **line numbers**
 - If any errors exist → output files are not produced (or are not considered valid)
@@ -98,8 +98,3 @@ For every `file.as`, the assembler may generate:
 
 ---
 
-## Project Structure (Recommended)
-
-> Your repo structure may differ — adjust this section to match your folders/files.
-
-Example layout:
