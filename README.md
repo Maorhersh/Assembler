@@ -14,7 +14,14 @@ The assembler pipeline includes:
 
 ## Demo Screenshot
 
-![Demo / Run Example](docs/images/demo.png)
+![Demo / Run Example](docs/images/out1.png)
+![Demo / Run Example](docs/images/out2.png)
+![Demo / Run Example](docs/images/out3.png)
+![Demo / Run Example](docs/images/out4.png)
+![Demo / Run Example](docs/images/out5.png)
+![Demo / Run Example](docs/images/output5.png)
+![Demo / Run Example](docs/images/output6.png)
+
 
 ---
 
